@@ -1,0 +1,12 @@
+{
+    "name": "ExampleMod",
+    "version": "0.0.1",
+    "description": "Example Mod",
+    "author": "tyuXX",
+    "dependencies": [],
+    "scripts": [
+        "exampleScript.js"
+    ],
+    "onload": "console.log(\"Hello from ExampleMod!\");",
+    "onunload": "console.log(\"Goodbye from ExampleMod!\");"
+}
