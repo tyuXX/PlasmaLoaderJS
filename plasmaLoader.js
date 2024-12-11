@@ -12,6 +12,12 @@ window.PlasmaLoader = {
             loaded: true
         }
     ],
+    loadUI: () => {
+        if (PlasmaLoader.loaded) {
+            // Do stuff
+            console.log("PlasmaLoader UI loaded!");
+        }
+    },
     load: () => {
         const plasmaLoaderContainer = document.createElement("div");
         plasmaLoaderContainer.id = "plasmaLoaderContainer";
